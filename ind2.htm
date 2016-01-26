@@ -1,0 +1,43 @@
+<html>
+<head>
+
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+
+<script>
+function showData(data) {
+    $.each(data.businesses, function(i,business){
+        // extra loop
+        $.each(business.reviews, function(i,review){ 
+            var content = '<p>' + review.text_excerpt + '</p>';
+            content += '<p>' +review.date + '</p>';
+            $(content).appendTo('#review');
+        });
+    });      
+}
+
+
+$(document).ready(function(){
+
+    writeScriptTag( "http://api.yelp.com/phone_search?"+
+"&categories.name=cafe"+
+"&phone="+"(408) 292-2070"+
+"&ywsid=Iua-78eDnxy0DTqm8I4mDw"+
+"&limit=1"+
+"&callback=showData"); 
+});
+
+function writeScriptTag(path) {
+    var fileref = document.createElement('script');
+    fileref.setAttribute("type","text/javascript");
+    fileref.setAttribute("src", path);
+
+    document.body.appendChild(fileref);
+}
+</script>
+</head>
+
+<body>
+
+<div id="review"></div>
+
+</body>
