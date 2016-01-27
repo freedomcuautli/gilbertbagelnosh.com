@@ -12,6 +12,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     font-family: openSansBold;
     src: url("../fonts/OpenSansBoldItalic.ttf");
 }
+
+html, body {
+
+ width: 100%;
+height: auto;
+margin: 0px;
+padding: 0px;
+overflow-x: hidden; }
+
 body a{
     transition:0.5s all;
 	-webkit-transition:0.5s all;
