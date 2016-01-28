@@ -370,6 +370,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 }
 span.menu {
   display: none;
+  cursor: pointer;
 }
 nav a {
 	position: relative;
