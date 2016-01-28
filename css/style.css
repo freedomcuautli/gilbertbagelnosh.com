@@ -352,6 +352,7 @@ ul.callbacks_tabs.callbacks1_tabs {
   margin: 0 1em;
   color: #fff;
   font-family: openSans;
+  cursor:pointer;
 }
 .top-menu ul li a:hover {
   color: #323232;
@@ -383,6 +384,7 @@ nav a {
 	font-weight: 400;
 	text-shadow: 0 0 1px rgba(255,255,255,0.3);
 	font-size: 1.35em;
+	cursor:pointer;
 }
 
 nav a:hover,
@@ -392,6 +394,7 @@ nav a:focus {
 /* Effect 5: same word slide in */
 .cl-effect-5 a {
 	overflow: hidden;
+	cursor: pointer;
 }
 
 .cl-effect-5 a span {
@@ -1895,7 +1898,7 @@ span.menu {
   display:none;
 }
 .top-menu  ul li {
-  font-size: 14px;
+  font-size: 1.35em;
   display:block;
 }
 .top-menu ul li{
