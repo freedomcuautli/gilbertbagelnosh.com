@@ -1938,7 +1938,7 @@ span.menu {
 a.button1 {
   position:absolute;
   font-size: 1.25em;
-  margin-left:30%;
+  margin-left:25%;
   margin-top:-2.75em;
    }
 .video iframe {
@@ -1951,15 +1951,27 @@ a.button1 {
 .about-section h3 {
   font-size: 1.2em;
  }
+  .about-section h1 {
+  width:7em;
+ }
+ .about-section p {
+  padding-bottom:1em;
+ }
+
 .view1 {
   margin: 0.8em 0;
 }
 .view {
   width: 100%;
  }
+ .view-fourth{
+  width: 22.25em;
+  height: 18em; 	
+ }
+ 
  .view .mask, .view .content {
-  width: 415px;
-  height: 270px;
+  width: 22.25em;
+  height: 18em;
 }
 .view h3 {
 	margin-top:5%;
@@ -1968,15 +1980,16 @@ a.button1 {
 }
 
 .view p {
+  margin-top:-.5em;
   margin-left:4%;
-  font-size: 1.15em;
+  font-size: 1em;
   line-height: 1.25em;
 }
 .menu-section {
   padding: 2em 0;
 }
 .menu-grid {
-  left:-30%;
+  left:-40%;
   width: 95%;
   height:80%;
   padding-bottom:5%;
@@ -2014,13 +2027,17 @@ a.button1 {
 
 .events-section h3 {
   font-size: 1.2em;
-   width:23.5%;
+   width:5.57em;
  }
   
 .icon {
   float: left;
-  width: 23%;
-    padding: 1em 2em;
+  width: 4.75em;
+  height:4.75em;	
+    padding: .65em 1em;
+}
+.icon img {
+	width:70%;
 }
 .event-info {
   float: left;
@@ -2033,10 +2050,6 @@ a.button1 {
 .event-info p {
   font-size: 0.85em;
   height: 38px;
-}
-.icon1 {
-  float: left;
-  width: 24%;
 }
 .event-info1 {
   float: left;
@@ -2053,6 +2066,18 @@ a.button1 {
   min-height: 312px;
   padding: 2em 0;
 }
+
+.icon1 {
+  float: left;
+  width: 4.75em;
+  height:4.75em;
+      padding: .75em .75em;	
+}
+.icon1 img {
+	width:5em;
+	height:3em;
+}
+
 a.button2 {
   font-size: 0.9em;
  }
@@ -2060,16 +2085,18 @@ a.button2 {
   padding: 2em 0;
 }
 .test-section h3 {
-  font-size: 1.2em;
+  margin-left:-.5em;
+  font-size: 1.175em;
  }
  
  .test-section h4 {
-  font-size: 1.25em;
+  font-size: 1.225em;
   text-align:right;
   color: #fff;
-  margin-bottom: 1em;
-  margin-right:1em;
+  margin-bottom: 1.5em;
+  margin-right:-.25em;
   font-weight: 600;
+  padding-bottom:1.5em;
 }
 
 .test-section h4 a {
@@ -2079,7 +2106,7 @@ a.button2 {
 }
   
 .test1 {
-width:30%;
+width:8em;
 position:relative;
 overflow:hidden;
 }
@@ -2089,15 +2116,16 @@ overflow:hidden;
 }
 .textbox p {
 	position:relative;
-	padding-top: 2.5em;
+	padding-top: 1.75em;
 	font-size: 0.85em;
-	margin-left:-1em;
+	margin-left:-.85em;
 }
 
 .textbox img {
 	position:relative;
+	top:.25em;
 	width:55%;
-	margin-left:20%;
+	margin-left:1.125em;
 }
 
 .textbox h4 {
@@ -2117,7 +2145,8 @@ position:relative;
 
 .test-right01{
 	position:absolute;
-	right:.125%;
+	top:-.5em;
+	right:-.25em;
 }
 
 .test-left01 {
@@ -2143,11 +2172,16 @@ position:relative;
 
 .test-right p {
   font-size: 0.7em;
+  line-height: 110%;
+  margin-left:.5em;
+  margin-top:-2.25em;
   height:90%;
+  width:25em;
   overflow: hidden;
 }
 .test-left01 p {
   font-size: 0.7em;
+  line-height: 110%;
   height:90%;
   overflow: hidden;
 }
@@ -2157,7 +2191,9 @@ position:relative;
 .test-left01 h2 {
   font-size: 1em;
 }
-
+.testi-grid{
+	padding-bottom:1em;
+}
 .google iframe {
   width: 100%;
   height: 230px;
@@ -2298,7 +2334,6 @@ position:relative;
 		padding-top:6.75em;
 	}
 	
-	piens
 	.service-section h2 {
 		  margin-top:-.25em;
 		  font-size: 1.225em;
@@ -2330,9 +2365,9 @@ position:relative;
 }
 .menu-details-grid {
 position:relative;
-  width:95%;
+  width:87.5%;
   height:120em;
-  margin-left:-3.5%;
+  margin-left:-5%;
   margin-top:1em;
   	padding-bottom:5em;
   /*margin-left:.5em;*/
@@ -2342,9 +2377,9 @@ position:relative;
 
 .menu-details-grid img {
 position:relative;
-  width:98.5%;
+  width:87.5%;
 height:65em;
-  margin-left:-.75%;
+  margin-left:-1.25%;
   margin-top:1em;
   	padding-bottom:5em;
   /*margin-left:.5em;*/
@@ -2372,7 +2407,7 @@ height:65em;
 	width: 60%;
 	height:57.5em;
 	top:1%;
-	right:2%;
+	right:15%;
 		padding-bottom:5em;
 
 }
@@ -2384,7 +2419,6 @@ height:65em;
 }
 .menu-details h6 {
   font-size: 1.25em;
-  margin-bottom:.5em;
 }
 
 
@@ -2447,6 +2481,7 @@ margin-left:1.75em;
   
   .menu-details p {
   font-size: .925em;
+  line-height:102.5%;
   height:1.15em;
   margin-bottom:.5em;
   }
@@ -2468,6 +2503,7 @@ margin-left:1.75em;
   .menu-details-derecha p {
   text-align:left;
   font-size: .95em;
+  line-height:102.5%;
 
   }
 
@@ -2559,6 +2595,8 @@ a.button1 {
   padding: 1em 2em;
   margin: 0 auto;
 }
+
+
 .event-info {
   float: none;
   width: 100%;
