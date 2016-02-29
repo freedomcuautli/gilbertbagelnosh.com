@@ -1856,6 +1856,14 @@ a.button2 {
 
 @media(max-width:480px){
 
+html, body {
+
+ width: 100%;
+height: auto;
+margin: 0px;
+padding: 0px;
+overflow-x: hidden; }
+
 .caption {
   top: 37%;
   width: 35%;
